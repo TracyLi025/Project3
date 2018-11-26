@@ -1,0 +1,183 @@
+.indexbody {
+  background:url('indexbackground.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+  float:left;
+}
+
+.resumebody {
+  background:url('resumebackground.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+  float:none;
+}
+
+.aboutmebody {
+  background:url('aboutmebackground.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+  float:left;
+}
+
+.navbar{
+  position: relative;
+  padding: 15px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+
+.navbar a.active{
+  background-color: #BA160C;
+  color: white;
+}
+
+.navbar ul{
+  background-color: #aea8a1;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+  display:inline-block;
+}
+
+.navbar li{
+  font-family: 'Mali', cursive;
+  font-size: 20px;
+  float: left;
+  list-style-type: none;
+}
+
+.navbar a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  transition: all 0.3s;
+}
+
+.navbar a:hover{
+  background-color: #D60270;
+  border-bottom: 5px solid #D60270;
+}
+
+.resume-wrap {
+  padding-bottom: 20px;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  background: #ECEFF1;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.resumetitle{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Playfair Display', serif;
+}
+
+.resume-wrap section{
+  margin: 10px 40px 30px 40px;
+  animation: fadein 0.5s;
+}
+
+.resume-wrap h2{
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom: 1px solid #333;
+}
+
+.file{
+  width: 650px;
+  height: 425px;
+  float:none; 
+}
+.index-wrap{
+  padding-bottom: 20px;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  background: #ECEFF1;
+  opacity: 0.9;
+  float:none; 
+}
+
+.subsection{
+  width: auto;
+  height: auto;
+  margin: 30px 20px 30px 20px;
+  overflow:hidden;
+  float:none;
+}
+
+.subsection h1{
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.subsection p{
+  font-family: 'Raleway', sans-serif;
+}
+
+.subsection h2{
+  font-size: 30px;
+  font-family: 'Charmonman', cursive;
+}
+
+.subsection h3{
+  font-size: 26px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.aboutme-wrap{
+  padding-bottom: 20px;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  background: #ECEFF1;
+  opacity: 0.9;
+  float:none; 
+}
+
+.subsection video,iframe{
+  width: 520px;
+  height: 315px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.aboutmeimage{
+  display:block;
+  width: 30%;
+  height: 20%;
+  float: left;
+  position: relative;
+  animation: fadein 2s;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+}
+
+.aboutmelogo{
+  display:block;
+  float: left;
+  position: relative;
+  animation: fadein 2s;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+}
