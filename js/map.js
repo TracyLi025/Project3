@@ -6,7 +6,7 @@ function initMap(){
   var marina = {lat: 20.041741, lng: 110.229879};
   var map = new google.maps.Map(
     document.getElementById('map'), {
-    zoom: 11, center: home
+    zoom: 12, center: home
     }
   );
 
