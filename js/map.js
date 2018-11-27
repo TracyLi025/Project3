@@ -2,7 +2,7 @@ function initMap(){
   var home = {lat: 20.024632, lng: 110.309653};
   var middeschool = {lat: 20.027554, lng: 110.306955};
   var highschool = {lat: , lng: };
-  var park = {lat : , lng: };
+  var park = {lat: 20.033708, lng: 110.315855};
   var marina = {lat : , lng: };
   var map = new google.maps.Map(
     document.getElementById('map'), {
