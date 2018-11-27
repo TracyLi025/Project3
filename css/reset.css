@@ -1,0 +1,20 @@
+html, body, div,
+h1, h2, h3, h4, ol, ul, li,
+header, nav, section {
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+header,nav,section { 
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+a {
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
